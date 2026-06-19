@@ -1,0 +1,68 @@
+<html>
+  <body>
+    <script>
+      // minimal spreadsheet link generation:
+      // make sure to publish spreadsheet to web (File -> Share -> Publish to Web)
+      // copy regular share link and cut off everything after the id, probably starting with "edit"
+      // e.g. https://docs.google.com/spreadsheets/d/e/2PACX-1vSTOk8l2jTISpMW7TWir-rGFwweTeQG63LcMULgblrwbR-U36gdi6vi1O4Yju0ULA/pubhtml?gid=237521135&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=minimal;frameborder=0-->
+      // add the following to end of link:
+      // link ext: pubhtml?gid=237521135&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=minimal;frameborder=0-->
+
+      //for jpeg's: look for id, and then reformat like this
+      //https://drive.google.com/thumbnail?id=12345678901234567890123456789012
+
+      const dotContentArray = [
+        {
+          initials: "RRR & MZYVB",
+          name: "Ramell Ross & Mei Van Boswell",
+          listName: "Toolbox & First Aid Kit",
+          link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6Gf4bjuhtEqCJ0QADS9lffzD6jvVMieQm1cOVLlpeh-rsVBzcHfgjVPhldrqtqD0_qyaD6dybJU-3/pubhtml?gid=237521135&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=minimal;frameborder=0-->",
+        },
+
+        {
+          initials: "EWH",
+          name: "Elaine W Ho",
+          listName: "Music Drawer",
+          link: "https://drive.google.com/thumbnail?id=1MnxWhXPkrJCSzgpP25yIEsTBe7rHuqFL",
+        },
+        {
+          initials: "QZ",
+          name: "Qiutong Zhai",
+          listName: "Marble Library Inventory",
+          link: "https://docs.google.com/spreadsheets/d/1rXhXaQYyN7chS-jmrol0McWNcEwP9Xus/pubhtml?gid=237521135&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=minimal;frameborder=0-->",
+        },
+        {
+          initials: "AL",
+          name: "Alvin Luong",
+          listName: "Map Inventory",
+          link: "https://docs.google.com/document/d/17XXNpQz_ZToSAhLFUgvHw5ZsIxtm0N3d/edit?usp=drive_link&ouid=105122164205137922931&rtpof=true&sd=true",
+        },
+        {
+          initials: "RH & WW",
+          name: "Rania Ho & Wang Wei",
+          listName: "Kitchen Inventory",
+          link: "https://drive.google.com/file/d/1sSfJp33NOkByTbo87bmu70x5KXDF407M/view?usp=drive_link",
+        },
+        {
+          initials: "VX",
+          name: "Vic Xu",
+          listName: "Flora Fauna Inventory",
+          link: "https://drive.google.com/file/d/1qfKyHvcIsZhqGu-uqX6ZxPwVWxmrKwyc/view?usp=drive_link",
+        },
+
+        {
+          initials: "MZYVB",
+          name: "Mei Van Boswell",
+          listName: "Ferment (Liquor) Fridge Inventory",
+          link: "https://docs.google.com/spreadsheets/d/1UrDOMCh-Mrmug9QkmPI43rhmM8Webqsv/pubhtml?gid=237521135&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=minimal;frameborder=0-->",
+        },
+        {
+          initials: "QZ",
+          name: "Qiutong Zhai",
+          listName: "Community Art Supplies",
+          link: "https://docs.google.com/spreadsheets/d/1oISocArJIL9ioxNXW5jgOMnt1XgH0haD/pubhtml?gid=237521135&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=minimal;frameborder=0",
+        },
+      ];
+    </script>
+  </body>
+</html>

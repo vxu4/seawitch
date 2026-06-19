@@ -1,0 +1,9 @@
+selectedDots[a].addEventListener("mouseover", (event) => {
+event.preventDefault(); selectDots(i, true); highlightInitials(i, true); });
+selectedDots[a].addEventListener("mouseout", (event) => {
+event.preventDefault(); if (currentlySelected !== i) { selectDots(i, false);
+highlightInitials(i, false); } }); selectedDots[a].addEventListener("click",
+(event) => { event.preventDefault(); selectDots(i, false); highlightInitials(i,
+true); if (currentlySelected !== null) { highlightInitials(currentlySelected,
+false); } currentlySelected = i; setSelectedContent(i);
+overlay.classList.remove("hidden"); overlay.classList.add("show"); });
